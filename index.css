@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-container {
+    background-color: skyblue;
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.nav-container ul li:hover{
+    color: blue;
+}
+
+.nav-container div span {
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.nav-container div button {
+    margin-left: 14px;
+    width: 130px;
+    border: none;
+    background: white;
+    border-radius: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+}
+
+.nav-container div button:hover {
+    background: blue;
+    color: white;
+}
